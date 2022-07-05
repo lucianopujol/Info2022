@@ -39,6 +39,7 @@ class Coche(Vehiculo):
 	def __str__(self):
 		return super().__str__() + f"\nVelocidad: {self.velocidad}\nCilindraje: {self.cilindrada}"
 
+"""
 coche1 = Coche("Rojo", 4, 300, 5)
 print(coche1)
 coche1.setVelocidad(240)
@@ -46,3 +47,4 @@ coche1.setColor("Verde")
 coche1.setCilindrada(6)
 coche1.setRuedas(5)
 print(coche1)
+"""
