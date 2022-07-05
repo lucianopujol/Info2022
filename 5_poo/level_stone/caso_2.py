@@ -67,3 +67,6 @@ def catalogar(lista, ruedas = None):
 		print(f"Se han encontrado {contador} vehículos con {ruedas} ruedas.")
 
 catalogar(vehiculos)
+catalogar(vehiculos, 4)
+catalogar(vehiculos, 2)
+catalogar(vehiculos, 0)
